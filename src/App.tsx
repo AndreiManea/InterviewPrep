@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyComponent name={5} />
+        <MyComponent name={"andrew"} />
       </header>
     </div>
   );
