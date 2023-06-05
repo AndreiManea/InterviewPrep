@@ -14,10 +14,10 @@ const mockUsers: User[] = [
     id: 2,
     name: "Doe",
   },
-];
+]; 
 
 const UserList: React.FC = () => {
-  const [users, setUsers] = useState<string[]>([]); // Error Here
+  const [users, setUsers] = useState<User[]>([]); // Error Here
 
   useEffect(() => {
     // Simulate an API call with a delay
